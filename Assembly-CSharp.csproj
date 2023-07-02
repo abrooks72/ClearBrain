@@ -93,6 +93,9 @@
     <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneWButton.cs" />
     <Compile Include="Assets\Scripts\SettingsScroller.cs" />
+    <Compile Include="Assets\Scripts\BrightnessController.cs" />
+    <Compile Include="Assets\Scripts\VolumeSlider.cs" />
+    <Compile Include="Assets\Scripts\DontDestroyAudio.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
