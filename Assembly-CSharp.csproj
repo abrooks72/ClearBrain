@@ -92,10 +92,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneWButton.cs" />
+    <Compile Include="Assets\Scripts\CopyScript.cs" />
     <Compile Include="Assets\Scripts\SettingsScroller.cs" />
     <Compile Include="Assets\Scripts\BrightnessController.cs" />
     <Compile Include="Assets\Scripts\VolumeSlider.cs" />
     <Compile Include="Assets\Scripts\DontDestroyAudio.cs" />
+    <Compile Include="Assets\Scripts\UrlOpener.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
