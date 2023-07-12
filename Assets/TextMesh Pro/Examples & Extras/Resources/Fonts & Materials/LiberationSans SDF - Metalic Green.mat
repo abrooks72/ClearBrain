@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LiberationSans SDF - Metalic Green
-  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: BEVEL_ON GLOW_ON OUTLINE_ON UNDERLAY_ON
-  m_LightmapFlags: 5
+  m_Shader: {fileID: 10766, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: BEVEL_ON GLOW_ON OUTLINE_ON UNDERLAY_ON _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -27,8 +35,36 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _FaceTex:
         m_Texture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainBump:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -39,60 +75,111 @@ Material:
         m_Texture: {fileID: 2800000, guid: f88677df267a41d6be1e7a6133e7d227, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - PixelSnap: 0
+    - _AO: 2.4
     - _Ambient: 0
+    - _BaseLight: 0.35
     - _Bevel: 1
     - _BevelClamp: 0.617
     - _BevelOffset: -0.01
     - _BevelRoundness: 1
     - _BevelWidth: 0.071
+    - _BlendOp: 0
     - _BumpFace: 0
     - _BumpOutline: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _ColorMask: 15
+    - _ColorMode: 0
+    - _Cull: 2
     - _CullMode: 0
+    - _Cutoff: 0
     - _Diffuse: 0
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 0
+    - _EmissionEnabled: 0
+    - _EnableExternalAlpha: 0
+    - _Exposure: 1
     - _FaceDilate: 0.15
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
+    - _FlipbookMode: 0
     - _GlowInner: 0.136
     - _GlowOffset: 0.427
     - _GlowOuter: 0.062
     - _GlowPower: 0.941
     - _GradientScale: 10
+    - _ImageType: 0
+    - _Layout: 0
     - _LightAngle: 3.1416
+    - _LightingEnabled: 0
+    - _Mapping: 1
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
+    - _MirrorOnBack: 0
+    - _Mode: 0
+    - _Occlusion: 7.5
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
     - _OutlineWidth: 0.219
     - _PerspectiveFilter: 0
     - _Reflectivity: 12.76
+    - _Rotation: 0
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 0.59624994
     - _ScaleRatioC: 0.59624994
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
+    - _ShadowStrength: 1
     - _Sharpness: 0
+    - _Shininess: 0.058
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularPower: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
+    - _Strength: 0.252
     - _TextureHeight: 1024
     - _TextureWidth: 1024
+    - _TranslucencyViewDependency: 0.7
     - _UnderlayDilate: 0
     - _UnderlayOffsetX: 0.5
     - _UnderlayOffsetY: -0.5
     - _UnderlaySoftness: 0.2
+    - _UseUIAlphaClip: 0
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
     - _WeightNormal: 0
+    - _ZWrite: 1
     m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _ClipRect: {r: -10000, g: -10000, b: 10000, a: 10000}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.2}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
     - _FaceColor: {r: 0, g: 0.75735635, b: 0, a: 1}
     - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
@@ -100,6 +187,12 @@ Material:
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 0.7689687, g: 1, b: 0.75000346, a: 1}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
