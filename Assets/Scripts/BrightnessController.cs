@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,5 +20,11 @@ public class BrightnessController : MonoBehaviour
     void Update()
     {
         sceneLight.intensity = slider.value;
+        Save();
+    }
+
+    private void Save()
+    {
+        throw new NotImplementedException();
     }
 }

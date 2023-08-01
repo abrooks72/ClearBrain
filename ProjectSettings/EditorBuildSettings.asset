@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ContactPage.unity
     guid: 72b9c44a06fa80040860ca9300eb0175
+  - enabled: 1
+    path: Assets/Scenes/Matching Game Easy.unity
+    guid: 57c385ef881610f47bcc0ade53c57b6b
+  - enabled: 1
+    path: Assets/Scenes/Matching Game Hard.unity
+    guid: ab64a67f9463a5949bf1ff19aba68bc8
+  - enabled: 1
+    path: Assets/Scenes/Matching Game Medium.unity
+    guid: 860dc63408712d947a3246633a92c463
   m_configObjects: {}
