@@ -35,7 +35,6 @@ RectTransform:
   m_Children:
   - {fileID: 921507266883590169}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -59,7 +58,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 31
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -174,7 +175,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 607583333344036422}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -193,7 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757d35f76c48326429835a90b2ccef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_loginForm: {fileID: 6379118176071587187, guid: e076069a82acd6c4f8747c88690c8a51, type: 3}
+  m_loginForm: {fileID: 6379118176071587187, guid: e076069a82acd6c4f8747c88690c8a51,
+    type: 3}
 --- !u!222 &3435578822347451376
 CanvasRenderer:
   m_ObjectHideFlags: 0

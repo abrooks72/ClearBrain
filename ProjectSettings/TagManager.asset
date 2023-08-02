@@ -4,16 +4,28 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - startImage
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Background
+  - 
   - Water
   - UI
   - 
   - 
+  - Level
+  - Enemy
+  - Usable
+  - Interactable
+  - IgnorePlayer
+  - Player
+  - Cameras
+  - LitSprites
+  - Destructable
+  - EnemyWeapon
+  - BossWeakPoint
+  - Bullet
   - 
   - 
   - 
@@ -24,27 +36,18 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerDrop
+  - Platform
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 4149450895
+  - name: Water
+    uniqueID: 2116099231
     locked: 0
-  - name: New Layer 2
-    uniqueID: 3012263179
+  - name: Level
+    uniqueID: 2344118779
+    locked: 0
+  - name: Front
+    uniqueID: 3405993979
     locked: 0
