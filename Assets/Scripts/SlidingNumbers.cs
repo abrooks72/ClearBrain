@@ -22,7 +22,7 @@ public class SlidingNumbers : MonoBehaviour
             {
                 Debug.Log(hit.transform.name);
 
-                if (Vector2.Distance(emptySpace.position, hit.transform.position) < 10)
+                if (Vector2.Distance(emptySpace.position, hit.transform.position) < 7.5)
                 {
                     Vector2 lastEmptySpacePosition = emptySpace.position;
                     emptySpace.position = hit.transform.position;
