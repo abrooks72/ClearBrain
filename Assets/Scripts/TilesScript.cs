@@ -5,7 +5,8 @@ public class TilesScript : MonoBehaviour
     public Vector3 targetPosition;
     private Vector3 correctPosition;
     private SpriteRenderer _sprite;
-    void Start()
+    public int number;
+    void Awake()
     {
         targetPosition = transform.position;
         correctPosition = transform.position;

@@ -577,6 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 10
 --- !u!1 &168145167
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 3
 --- !u!1 &242334957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 6
 --- !u!1 &243347662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,6 +1851,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptySpace: {fileID: 793700876}
+  tiles:
+  - {fileID: 885758513}
+  - {fileID: 1834578151}
+  - {fileID: 236853320}
+  - {fileID: 1983624108}
+  - {fileID: 446019023}
+  - {fileID: 242334961}
+  - {fileID: 484334618}
+  - {fileID: 2104048902}
+  - {fileID: 1560673032}
+  - {fileID: 155963152}
+  - {fileID: 1599375261}
+  - {fileID: 501824632}
+  - {fileID: 464461348}
+  - {fileID: 412252647}
+  - {fileID: 1441923087}
+  - {fileID: 0}
 --- !u!1 &407308290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,6 +2119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 14
 --- !u!1 &446019019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,6 +2265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 5
 --- !u!1 &464461344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,6 +2411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 13
 --- !u!1 &484334614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 7
 --- !u!1 &501824628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,6 +2703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 12
 --- !u!1 &505059725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,6 +4075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 1
 --- !u!1 &945907629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5495,6 +5521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 15
 --- !u!1 &1454481102
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,6 +5976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 9
 --- !u!1 &1567817863
 GameObject:
   m_ObjectHideFlags: 0
@@ -6141,6 +6169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 11
 --- !u!1 &1606350433
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,6 +6656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 2
 --- !u!1 &1876018541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7007,6 +7037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 4
 --- !u!1 &2049847462
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,6 +7395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
+  number: 8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
