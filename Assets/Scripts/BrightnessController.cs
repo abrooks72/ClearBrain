@@ -25,6 +25,6 @@ public class BrightnessController : MonoBehaviour
 
     private void Save()
     {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 }

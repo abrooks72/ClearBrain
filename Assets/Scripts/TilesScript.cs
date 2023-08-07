@@ -17,6 +17,8 @@ public class TilesScript : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, targetPosition, 0.05f);
+        Debug.Log(transform.position);
+        Debug.Log(targetPosition);
         if(targetPosition == correctPosition)
         {
             _sprite.color = Color.green;
