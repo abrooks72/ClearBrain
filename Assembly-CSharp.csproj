@@ -156,6 +156,7 @@
     <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnCollision2D.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Localization\OriginalPhrases.cs" />
     <Compile Include="Assets\Scripts\SlidingNumbers.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Objects\HubDoor.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherBehaviour.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationTrack.cs" />

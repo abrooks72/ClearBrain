@@ -6,6 +6,7 @@ public class TilesScript : MonoBehaviour
     private Vector3 correctPosition;
     private SpriteRenderer _sprite;
     public int number;
+    public bool inRightPlace;
     void Awake()
     {
         targetPosition = transform.position;
@@ -17,15 +18,17 @@ public class TilesScript : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, targetPosition, 0.05f);
-        Debug.Log(transform.position);
-        Debug.Log(targetPosition);
+        //Debug.Log(transform.position);
+        //Debug.Log(targetPosition);
         if(targetPosition == correctPosition)
         {
             _sprite.color = Color.green;
+            inRightPlace = true;
         }
         else
         {
             _sprite.color = Color.white;
+            inRightPlace = false;
         }
     }
 }

@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SlidingNumbers : MonoBehaviour
 {
@@ -7,9 +9,13 @@ public class SlidingNumbers : MonoBehaviour
     private Camera _camera;
     [SerializeField] private TilesScript[] tiles;
     private int emptySpaceIndex = 15;
+    private bool _isFinished;
+    [SerializeField] private GameObject endPanel;
+    [SerializeField] private Text endPanelTimeText;
     void Start()
     {
         _camera = Camera.main;
+        endPanel.SetActive(false);
         Shuffle();
     }
 
@@ -37,8 +43,35 @@ public class SlidingNumbers : MonoBehaviour
                 }
             }
         }
+        if (!_isFinished)
+        {
+            int correctTiles = 0;
+            foreach (var a in tiles)
+            {
+                if (a != null)
+                {
+                    if (a.inRightPlace)
+                        correctTiles++;
+                }
+            }
+
+            if (correctTiles == tiles.Length - 1)
+            {
+                endPanel.SetActive(true);
+                _isFinished = true;
+                var a = GetComponent<TimerScript>();
+                a.StopTimer();
+                endPanelTimeText.text = a.minutes + ":" + a.seconds;
+            }
+        }
+        
+        
     }
 
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void Shuffle()
     {
         if(emptySpaceIndex != 15)
